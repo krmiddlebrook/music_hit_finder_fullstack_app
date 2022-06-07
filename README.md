@@ -13,7 +13,8 @@ An example fullstack (frontend + backend) app that finds great undiscovered new 
 * [Spotify User Account(s)](https://www.spotify.com/) for scrapping Spotify music data.
 * [Spotify Developer Account(s)](https://developer.spotify.com/) for scrapping Spotify music data.
 
-> Note: To get the backend app running fully, you'll need to add your Spotify user and developer credentials to the `backend/app/app/spotify/config.py` file.
+> Note: To get the backend app running fully, you'll need to add your Spotify user and developer credentials to the `backend/app/app/spotify/config.py` file. You should also update the `./.env` file with any global environment variables used in the frontend and/or backend.
+
 ## Frontend Requirements
 
 * Node.js (with `npm`).
