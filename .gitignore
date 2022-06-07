@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+
+# Docker files
+docker-stack.yml
+traefik.yml
+
+# Environment files
+cookiecutter-config-file.yml
+.env
+repo-key
+repo-key.pub
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Local Audio files
+backend/app/app/audio/wav/*.wav
+backend/app/app/audio/mp3/*.mp3
+
+# Local Mac OS files
+*.DS_Store
+
+# Local ML Model weights
+backend/app/app/ml/weights/*.tar
+
+# Unit test / coverage reports
+.mypy_cache/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# VS Code local settings
+.vscode
+*.code-workspace

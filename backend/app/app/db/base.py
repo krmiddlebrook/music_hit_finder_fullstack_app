@@ -1,0 +1,33 @@
+# Import all the models, so that Base has them before being
+# imported by Alembic
+from app.db.base_class import Base  # noqa
+from app.models.item import Item  # noqa
+from app.models.user import User  # noqa
+from app.models.ml_model import ML_Model  # noqa
+from app.models.label import Label  # noqa
+from app.models.spotify_user import Spotify_User  # noqa
+from app.models.user_followers_count import User_Followers_Count  # noqa
+from app.models.playlist import Playlist  # noqa
+from app.models.playlist_followers_count import Playlist_Followers_Count  # noqa
+from app.models.search_term import Search_Term  # noqa
+from app.models.track import Track  # noqa
+from app.models.track_playcount import Track_Playcount  # noqa
+from app.models.album import Album  # noqa
+from app.models.artist import Artist  # noqa
+from app.models.artist_stat import Artist_Stat  # noqa
+from app.models.artist_link import Artist_Link  # noqa
+from app.models.genre import Genre  # noqa
+from app.models.city import City  # noqa
+from app.models.city_count import City_Count  # noqa
+from app.models.spectrogram import Spectrogram  # noqa
+from app.models.term_playlist import Term_Playlist  # noqa
+from app.models.track_playlist import Track_Playlist  # noqa
+from app.models.track_user import Track_User  # noqa
+from app.models.track_artist import Track_Artist  # noqa
+from app.models.album_artist import Album_Artist  # noqa
+from app.models.genre_artist import Genre_Artist  # noqa
+from app.models.city_artist import City_Artist  # noqa
+from app.models.track_distance import Track_Distance  # noqa
+from app.models.track_prediction import Track_Prediction  # noqa
+from app.models.spectrogram import Spectrogram  # noqa
+from app.models.musicai_playlist import Musicai_Playlist  # noqa
