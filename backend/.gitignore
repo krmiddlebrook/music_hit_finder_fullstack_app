@@ -23,7 +23,6 @@ var/
 .installed.cfg
 
 # Environment files
-.env
 repo-key
 repo-key.pub
 

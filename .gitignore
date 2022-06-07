@@ -24,7 +24,6 @@ traefik.yml
 
 # Environment files
 cookiecutter-config-file.yml
-.env
 repo-key
 repo-key.pub
 
