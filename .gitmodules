@@ -1,0 +1,3 @@
+[submodule "sp-playcount-librespot"]
+	path = sp-playcount-librespot
+	url = https://github.com/evilarceus/sp-playcount-librespot.git

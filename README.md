@@ -19,6 +19,9 @@ An example fullstack (frontend + backend) app that finds great undiscovered new 
 
 * Node.js (with `npm`).
 
+> Note: To get the frontend app running fully, you'll need to add your Spotify developer credentials to the `frontend/.env` file.
+
+
 ## Backend local development
 
 * Start the stack with Docker Compose:
